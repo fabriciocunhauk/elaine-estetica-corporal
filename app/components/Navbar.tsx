@@ -66,7 +66,7 @@ const MobileMenu: React.FC<{ navigation: NavigationProps[] }> = ({
             className="flex flex-col items-center justify-between gap-4 mx-auto"
           >
             <Image src={logo} className="h-[60px] w-20" alt="Logo" />
-            <div className="text-center">
+            <div className="text-center text-purple-primary">
               <h1 className="text-lg font-semibold">
                 Elaine Estética Corporal
               </h1>
@@ -138,7 +138,7 @@ const Navbar: React.FC<NavbarProps> = ({ classes }) => {
       >
         <Link href="/" className="flex items-center justify-between gap-4">
           <Image src={logo} className="h-[60px] w-20" alt="Logo" />
-          <div className="text-center">
+          <div className="text-center text-purple-primary">
             <h1 className="text-lg font-semibold">Elaine Estética Corporal</h1>
             <p className="text-[9px]">
               Ajudo você a encontrar sua melhor versão

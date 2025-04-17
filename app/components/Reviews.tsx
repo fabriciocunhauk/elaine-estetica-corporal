@@ -287,13 +287,13 @@ export function Reviews() {
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
         >
-          What Our Customers Are Saying
+          Perguntas Frequentes
         </h2>
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
-          At 4th Dimension Innovation, we take pride in delivering exceptional
-          service to our clients. From seamless claims management to reliable
-          motorcycle recovery, hear what our satisfied customers have to say
-          about their experiences working with us.
+          Aqui você encontra respostas para as dúvidas mais comuns sobre os
+          tratamentos de drenagem linfática, massagem relaxante e estética
+          facial. Se precisar de mais informações, entre em contato pelo
+          WhatsApp ou agende sua sessão personalizada!
         </p>
         <ReviewGrid />
       </Container>
