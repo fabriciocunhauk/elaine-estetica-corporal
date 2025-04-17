@@ -18,10 +18,10 @@ export default function Header() {
             Services
           </Link>
           <Link
-            href="#about"
+            href="#benefits"
             className="hover:text-amber-200 transition duration-300"
           >
-            About
+            Benefits
           </Link>
           <Link
             href="#testimonials"

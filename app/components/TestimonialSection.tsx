@@ -22,7 +22,11 @@ const TestimonialSection = () => {
   ];
 
   return (
-    <Container element="section" classes={{ container: "py-12" }}>
+    <Container
+      element="section"
+      classes={{ container: "py-12" }}
+      id="testimonials"
+    >
       <h2 className="text-3xl font-bold text-center text-purple-primary my-40">
         Depoimentos de Clientes
       </h2>

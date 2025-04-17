@@ -36,7 +36,7 @@ const ContactForm = () => {
   };
 
   return (
-    <Container element="section">
+    <Container element="section" id="contact">
       <Card>
         <h2 className="text-3xl font-bold text-purple-primary mb-6 text-center">
           Agendamento
