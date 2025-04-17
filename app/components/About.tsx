@@ -17,7 +17,7 @@ export default function About() {
               <div className="w-24 h-1 bg-purple-primary my-4 sm:my-6"></div>
             </div>
 
-            <p className="mt-6 text-lg sm:text-xl/8 text-gray-700">
+            <p className="mt-6 text-lg sm:text-xl/8 text-purple-primary">
               Sou especialista em estética corporal e terapias manuais, com
               formação exclusiva no <strong>Método Renata França</strong>. Minha
               jornada na área da beleza e bem-estar começou há mais de X anos,
@@ -25,7 +25,7 @@ export default function About() {
               com seus corpos.
             </p>
 
-            <p className="mt-6 text-base/7 text-gray-700">
+            <p className="mt-6 text-base/7 text-purple-primary">
               Minha abordagem vai muito além da estética - acredito no{" "}
               <strong>poder transformador</strong> de um atendimento humanizado
               e personalizado. Cada sessão é cuidadosamente planejada para
@@ -37,7 +37,7 @@ export default function About() {
               <h3 className="font-serif font-semibold text-primary text-lg">
                 Minha Filosofia:
               </h3>
-              <ul className="space-y-3 text-gray-700">
+              <ul className="space-y-3 text-purple-primary">
                 <li className="flex items-start">
                   <span className="text-primary mr-2">✓</span>
                   <span>Atendimento personalizado e acolhedor</span>

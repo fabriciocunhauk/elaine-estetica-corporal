@@ -153,14 +153,14 @@ function Review({
       style={{ animationDelay }}
       {...props}
     >
-      <blockquote className="text-gray-900">
+      <blockquote className="text-purple-primary">
         <StarRating rating={rating} />
         <p className="mt-4 text-lg/6 font-semibold before:content-['“'] after:content-['”']">
           {title}
         </p>
         <p className="mt-3 text-base/7">{body}</p>
       </blockquote>
-      <figcaption className="mt-3 text-sm text-gray-600 before:content-['–_']">
+      <figcaption className="mt-3 text-sm text-purple-primary before:content-['–_']">
         {author}
       </figcaption>
     </figure>
@@ -285,11 +285,11 @@ export function Reviews() {
       <Container>
         <h2
           id="reviews-title"
-          className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
+          className="text-3xl font-medium tracking-tight text-purple-primary sm:text-center"
         >
           Perguntas Frequentes
         </h2>
-        <p className="mt-2 text-lg text-gray-600 sm:text-center">
+        <p className="mt-2 text-lg text-purple-primary sm:text-center">
           Aqui você encontra respostas para as dúvidas mais comuns sobre os
           tratamentos de drenagem linfática, massagem relaxante e estética
           facial. Se precisar de mais informações, entre em contato pelo
