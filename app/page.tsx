@@ -1,21 +1,23 @@
-import Header from "./components/Header";
 import ContactForm from "./components/ContactForm";
 import Hero from "./components/Hero";
 import ServicesSection from "./components/ServicesSection";
-import TestimonialSection from "./components/TestimonialSection";
 import FAQs from "./components/FAQs";
 import Footer from "./components/Footer";
 import BenefitsSection from "./components/BenefitsSection";
+import About from "./components/About";
+import { Reviews } from "./components/Reviews";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <Header />
-      <main className="container mx-auto px-4 py-8">
+      <Navbar />
+      <main>
         <Hero />
         <BenefitsSection />
         <ServicesSection />
-        <TestimonialSection />
+        <About />
+        <Reviews />
         <FAQs />
         <ContactForm />
       </main>

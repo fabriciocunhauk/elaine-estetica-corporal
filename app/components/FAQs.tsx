@@ -3,8 +3,8 @@ import Container from "./Container";
 
 function FAQs() {
   return (
-    <Container element="section" classes={{ container: "my-40" }}>
-      <h2 className="text-3xl font-bold text-center text-purple-primary my-40">
+    <Container element="section">
+      <h2 className="text-3xl font-bold text-center text-purple-primary my-20">
         Perguntas Frequentes
       </h2>
       <div className="max-w-3xl mx-auto space-y-4">

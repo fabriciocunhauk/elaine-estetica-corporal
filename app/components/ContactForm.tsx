@@ -36,7 +36,7 @@ const ContactForm = () => {
   };
 
   return (
-    <Container element="section" id="contact">
+    <Container element="section" id="contact" classes={{ container: "py-40" }}>
       <Card>
         <h2 className="text-3xl font-bold text-purple-primary mb-6 text-center">
           Agendamento
