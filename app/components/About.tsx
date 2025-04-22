@@ -1,12 +1,12 @@
 import Image from "next/image";
 import image1 from "@/public/images/elaine.jpeg";
-import image2 from "@/public/images/elaine.jpeg";
-import image3 from "@/public/images/elaine.jpeg";
+import image2 from "@/public/images/sentada-frente.jpeg";
+import image3 from "@/public/images/pose.jpeg";
 
 export default function About() {
   return (
     <div className="overflow-hidden bg-secondary" id="sobre">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:flex lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:flex lg:p-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 sm:gap-x-12 sm:gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           {/* Conteúdo de Texto */}
           <div className="px-4 sm:px-0 lg:col-end-1 lg:w-full lg:max-w-lg">
@@ -66,10 +66,10 @@ export default function About() {
             <div className="px-4 sm:px-0 sm:w-0 sm:flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
               <Image
                 alt="Elaine aplicando técnica de drenagem linfática"
-                src={image1}
+                src={image3}
                 width={800}
                 height={600}
-                className="aspect-[7/5] w-full sm:w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover shadow-lg border-4 border-white"
+                className="aspect-[7/5] w-full sm:w-[37rem] max-w-none rounded-2xl bg-gray-50 object-top object-cover shadow-lg border-4 border-white"
               />
             </div>
 
@@ -81,8 +81,8 @@ export default function About() {
                   alt="Detalhe da técnica Renata França aplicada"
                   src={image2}
                   width={600}
-                  height={450}
-                  className="aspect-[4/3] w-full sm:w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover shadow-lg border-4 border-white"
+                  height={500}
+                  className="aspect-[4/3] w-full sm:w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-top object-cover shadow-lg border-4 border-white"
                 />
               </div>
 
@@ -90,10 +90,10 @@ export default function About() {
               <div className="sm:flex sm:w-96 sm:flex-auto sm:justify-end lg:w-auto lg:flex-none">
                 <Image
                   alt="Equipamentos e produtos profissionais utilizados"
-                  src={image3}
+                  src={image1}
                   width={800}
                   height={600}
-                  className="aspect-[7/5] w-full sm:w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover shadow-lg border-4 border-white"
+                  className="aspect-[7/5] w-full sm:w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-top object-cover shadow-lg border-4 border-white"
                 />
               </div>
             </div>

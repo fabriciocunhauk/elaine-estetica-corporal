@@ -287,13 +287,13 @@ export function Reviews() {
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-purple-primary sm:text-center"
         >
-          Perguntas Frequentes
+          Depoimentos de Quem já Viveu a Experiência
         </h2>
         <p className="mt-2 text-lg text-purple-primary sm:text-center">
-          Aqui você encontra respostas para as dúvidas mais comuns sobre os
-          tratamentos de drenagem linfática, massagem relaxante e estética
-          facial. Se precisar de mais informações, entre em contato pelo
-          WhatsApp ou agende sua sessão personalizada!
+          A melhor recomendação vem de quem já sentiu na pele os benefícios dos
+          meus tratamentos. Veja o que minhas clientes têm a dizer sobre as
+          sessões de drenagem linfática, massagem relaxante e estética facial.
+          Sua satisfação é o meu maior orgulho!
         </p>
         <ReviewGrid />
       </Container>

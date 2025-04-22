@@ -3,11 +3,22 @@ import Container from "./Container";
 
 function FAQs() {
   return (
-    <Container element="section">
-      <h2 className="text-3xl font-bold text-center text-purple-primary my-20">
-        Perguntas Frequentes
-      </h2>
-      <div className="max-w-3xl mx-auto space-y-4">
+    <Container element="section" classes={{ container: "py-20" }}>
+      <div className="mb-10">
+        <h2
+          id="reviews-title"
+          className="text-3xl font-medium tracking-tight text-purple-primary sm:text-center"
+        >
+          Perguntas Frequentes
+        </h2>
+        <p className="mt-2 text-lg text-purple-primary sm:text-center">
+          Aqui você encontra respostas para as dúvidas mais comuns sobre os
+          tratamentos de drenagem linfática, massagem relaxante e estética
+          facial. Se precisar de mais informações, entre em contato pelo
+          WhatsApp ou agende sua sessão personalizada!
+        </p>
+      </div>
+      <div className="flex flex-col items-center justify-center gap-10 max-w-3xl mx-auto">
         <div className="bg-white p-6 rounded-xl shadow-md">
           <h3 className="text-xl font-semibold text-purple-primary mb-2">
             Quantas sessões são recomendadas?

@@ -1,4 +1,3 @@
-import ContactForm from "./components/ContactForm";
 import Hero from "./components/Hero";
 import ServicesSection from "./components/ServicesSection";
 import FAQs from "./components/FAQs";
@@ -7,6 +6,7 @@ import BenefitsSection from "./components/BenefitsSection";
 import About from "./components/About";
 import { Reviews } from "./components/Reviews";
 import Navbar from "./components/Navbar";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -19,9 +19,9 @@ export default function Home() {
         <About />
         <Reviews />
         <FAQs />
-        <ContactForm />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
