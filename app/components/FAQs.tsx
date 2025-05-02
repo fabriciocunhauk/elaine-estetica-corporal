@@ -57,12 +57,6 @@ const faqSections = [
     description:
       "Sim! Cada sessão traz melhorias perceptíveis — seja na redução do inchaço, no relaxamento muscular ou na suavidade da pele após depilação. Resultados contínuos dependem do protocolo e da frequência das sessões.",
   },
-  {
-    id: 6,
-    title: "Qual o valor dos serviços?",
-    description:
-      "Os valores variam por serviço e duração. Por exemplo: drenagem facial custa R$150,00 e depilação biquíni R$35,00. Confira todos os preços na aba de “Serviços” ou entre em contato direto para tirar dúvidas.",
-  },
 ];
 
 function Accordion({ classes }: AccordionProps) {
