@@ -285,7 +285,7 @@ export function Reviews() {
       <Container>
         <h2
           id="reviews-title"
-          className="text-3xl font-medium tracking-tight text-purple-primary sm:text-center"
+          className="text-3xl font-bold tracking-tight text-purple-primary sm:text-center  font-serif "
         >
           Depoimentos de Quem já Viveu a Experiência
         </h2>

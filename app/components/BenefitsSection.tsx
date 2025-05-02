@@ -14,7 +14,7 @@ function BenefitsSection() {
         container: "py-12 bg-purple-primary rounded-xl p-8 my-40",
       }}
     >
-      <h2 className="text-3xl font-bold text-center text-purple-secondary mb-12">
+      <h2 className="text-3xl font-bold text-center  font-serif  text-purple-secondary mb-12">
         Benefícios das Minhas Terapias
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -85,7 +85,7 @@ function Accordion({ classes }: AccordionProps) {
     >
       <Container size="md">
         <div className="py-10">
-          <h2 className="text-4xl font-bold text-center">
+          <h2 className="text-4xl font-bold text-center  font-serif ">
             Perguntas Frequentes
           </h2>
           <p className="mt-2 text-lg text-purple-primary sm:text-center">
