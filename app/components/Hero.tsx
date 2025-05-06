@@ -28,7 +28,8 @@ function Hero() {
             Terapias Especializadas em Domicílio
           </h1>
           <p className="text-xl text-white/90 mb-8 drop-shadow-md">
-            Drenagem Linfática | Massagem Relaxante | Drenagem Facial
+            Drenagem Linfática | Drenagem Facial | Massagem Modeladora |
+            Depilação
           </p>
           <div className="max-w-2xl mx-auto bg-purple-secondary rounded-xl p-6 mb-8 backdrop-blur-sm">
             <p className="text-lg font-medium text-purple-primary">
