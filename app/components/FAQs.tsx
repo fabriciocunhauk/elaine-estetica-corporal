@@ -72,6 +72,7 @@ function Accordion({ classes }: AccordionProps) {
 
   return (
     <div
+      id="faq"
       className={clsx(
         "py-20 pb-40 bg-white text-purple-primary",
         classes?.wrapper

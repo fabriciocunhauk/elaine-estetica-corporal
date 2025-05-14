@@ -5,10 +5,9 @@ import image3 from "@/public/images/pose.jpeg";
 
 export default function About() {
   return (
-    <div className="overflow-hidden bg-secondary" id="sobre">
+    <div className="overflow-hidden bg-secondary" id="about-me">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:flex lg:p-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 sm:gap-x-12 sm:gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-          {/* Conteúdo de Texto */}
           <div className="px-4 sm:px-0 lg:col-end-1 lg:w-full lg:max-w-lg">
             <div className="space-y-4 max-w-[700px]">
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-purple-primary">
@@ -60,9 +59,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Grid de Imagens */}
           <div className="grid grid-cols-1 gap-6 sm:flex sm:flex-wrap sm:items-start sm:justify-end sm:gap-6 lg:contents">
-            {/* Imagem Principal - Elaine profissional */}
             <div className="px-4 sm:px-0 sm:w-0 sm:flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
               <Image
                 alt="Elaine aplicando técnica de drenagem linfática"
@@ -73,9 +70,7 @@ export default function About() {
               />
             </div>
 
-            {/* Imagens Secundárias */}
             <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 sm:contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-              {/* Foto da técnica sendo aplicada */}
               <div className="sm:order-first sm:flex sm:w-64 sm:flex-none sm:justify-end sm:self-end lg:w-auto">
                 <Image
                   alt="Detalhe da técnica Renata França aplicada"
@@ -86,7 +81,6 @@ export default function About() {
                 />
               </div>
 
-              {/* Foto dos equipamentos/produtos */}
               <div className="sm:flex sm:w-96 sm:flex-auto sm:justify-end lg:w-auto lg:flex-none">
                 <Image
                   alt="Equipamentos e produtos profissionais utilizados"

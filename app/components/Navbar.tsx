@@ -25,10 +25,11 @@ type NavigationProps = {
 };
 
 const mockNavigation: NavigationProps[] = [
+  { id: 1, title: "Sobre Mim", link: "#about-me" },
   { id: 1, title: "Servicos", link: "#services" },
   { id: 2, title: "Beneficios", link: "#benefits" },
-  { id: 3, title: "Testemunhos", link: "#testimonials" },
-  { id: 4, title: "Contato", link: "#contact" },
+  { id: 3, title: "Testemunhos", link: "#reviews" },
+  { id: 4, title: "Perguntas Frequentes", link: "#faq" },
 ];
 
 const MobileMenu: React.FC<{ navigation: NavigationProps[] }> = ({
