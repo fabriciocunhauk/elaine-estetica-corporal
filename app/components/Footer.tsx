@@ -6,7 +6,10 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="bg-purple-secondary text-purple-primary py-12">
+    <footer
+      id="contact"
+      className="bg-purple-secondary text-purple-primary py-12"
+    >
       <Container classes={{ container: "flex flex-col items-center gap-8" }}>
         <div className="flex items-center justify-between w-full gap-4">
           <Link href="/" className="flex items-center gap-4">
